@@ -156,7 +156,7 @@ export default async function handler(req, res) {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Unsubscribe • Douglas </title>
+  <title>Unsubscribe • Douglas</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
     html,body{margin:0;padding:0;background:#f6f7f9;color:#111;font-family:Arial,Helvetica,sans-serif}
@@ -180,10 +180,10 @@ export default async function handler(req, res) {
     <div class="card">
       <div style="display:flex;align-items:center;margin-bottom:6px">
         <span class="ok"></span>
-        <div class="brand">Douglas </div>
+        <div class="brand">Douglas</div>
       </div>
       <h1>You're unsubscribed</h1>
-      <p>You will no longer receive marketing emails from <strong>Douglas </strong> at <strong>${esc(maskEmail(email))}</strong>.</p>
+      <p>You will no longer receive marketing emails from <strong>Douglas</strong> at <strong>${esc(maskEmail(email))}</strong>.</p>
       <div class="actions">
         <a class="btn btn-primary" href="https://douglashops.com">Return to Homepage</a>
         <a class="btn btn-outline" href="mailto:info@douglashops.com?subject=Unsubscribe%20Help">Contact Support</a>
